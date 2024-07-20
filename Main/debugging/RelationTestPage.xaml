@@ -1,0 +1,21 @@
+ <Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="WinCanvas.RelationTestPage"
+    Loaded="OnLoad" Unloaded="OnUnload">
+
+    <Grid Margin="100 20 0 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
+            <Label Margin="10 0 0 0" Name="lbBegin" />
+            <Label Margin="10 0 0 0" Name="lbBegin2" />
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left">
+            <Label Margin="10 0 0 0" Name="lbFinish"/>
+            <Label Margin="10 0 0 0" Name="lbFinish2"/>
+        </WrapPanel>
+    </Grid>
+</Page>
